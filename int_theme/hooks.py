@@ -14,14 +14,14 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 app_include_css = "/assets/int_theme/css/int_theme.css"
-# app_include_js = "/assets/business_theme_v14/js/business_theme_v14.js"
+# app_include_js = "/assets/int_theme/js/int_theme.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/business_theme_v14/css/business_theme_v14.css"
-# web_include_js = "/assets/business_theme_v14/js/business_theme_v14.js"
+# web_include_css = "/assets/int_theme/css/int_theme.css"
+# web_include_js = "/assets/int_theme/js/int_theme.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "business_theme_v14/public/scss/website"
+# website_theme_scss = "int_theme/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -58,27 +58,27 @@ app_include_css = "/assets/int_theme/css/int_theme.css"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "business_theme_v14.utils.jinja_methods",
-# 	"filters": "business_theme_v14.utils.jinja_filters"
+# 	"methods": "int_theme.utils.jinja_methods",
+# 	"filters": "int_theme.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "business_theme_v14.install.before_install"
-# after_install = "business_theme_v14.install.after_install"
+# before_install = "int_theme.install.before_install"
+# after_install = "int_theme.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "business_theme_v14.uninstall.before_uninstall"
-# after_uninstall = "business_theme_v14.uninstall.after_uninstall"
+# before_uninstall = "int_theme.uninstall.before_uninstall"
+# after_uninstall = "int_theme.uninstall.after_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "business_theme_v14.notifications.get_notification_config"
+# notification_config = "int_theme.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -117,39 +117,39 @@ app_include_css = "/assets/int_theme/css/int_theme.css"
 
 # scheduler_events = {
 # 	"all": [
-# 		"business_theme_v14.tasks.all"
+# 		"int_theme.tasks.all"
 # 	],
 # 	"daily": [
-# 		"business_theme_v14.tasks.daily"
+# 		"int_theme.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"business_theme_v14.tasks.hourly"
+# 		"int_theme.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"business_theme_v14.tasks.weekly"
+# 		"int_theme.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"business_theme_v14.tasks.monthly"
+# 		"int_theme.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "business_theme_v14.install.before_tests"
+# before_tests = "int_theme.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "business_theme_v14.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "int_theme.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "business_theme_v14.task.get_dashboard_data"
+# 	"Task": "int_theme.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -185,7 +185,7 @@ app_include_css = "/assets/int_theme/css/int_theme.css"
 # --------------------------------
 
 # auth_hooks = [
-# 	"business_theme_v14.auth.validate"
+# 	"int_theme.auth.validate"
 # ]
 
 # Translation
