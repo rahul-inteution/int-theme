@@ -2,11 +2,11 @@ from . import __version__ as app_version
 
 app_name = "int_theme"
 app_title = "int_theme"
-app_publisher = "Midocean Technologies Pvt Ltd"
+app_publisher = ""
 app_description = "Business Theme for ERPNext / Frappe"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "sagar@midocean.tech"
+app_email = "rahul@inteution.com"
 app_license = "MIT"
 
 # Includes in <head>

@@ -1,10 +1,10 @@
-## Business Theme V14
+## int theme
 
 Business Theme for ERPNext / Frappe
 
 ### To install this theme,
 
-bench get-app https://github.com/Midocean-Technologies/int_theme.git
+bench get-app https://github.com/rahul-inteution/int_theme.git
 
 bench --site (sitename) install-app int_theme
 
@@ -25,4 +25,4 @@ MIT
 
 
 #### Contact now! for end to end Frappe/ERPNext, Odoo & Flutter Development
-[sagar@midocean.tech]
+[rahul@inteution.com]
